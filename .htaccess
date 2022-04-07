@@ -1,0 +1,12 @@
+# use mod_rewrite for pretty URL support
+RewriteEngine on
+
+
+AddDefaultCharset UTF-8
+
+#Убираем расширение файла из URL
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.html [L]
+
+# if a directory or a file exists, use the request directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d

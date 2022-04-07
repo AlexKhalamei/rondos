@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="uk" prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rondos. Доступні гроші на будь-які цілі</title>
+		<meta name="description" content="Rondos. Доступні гроші на будь-які цілі. Гроші на покупки вмить — поступово поверніть!">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="https://rondos.in.ua/site.webmanifest">
+		<link rel="mask-icon" href="https://rondos.in.ua/safari-pinned-tab.svg" color="#4b66b1">
+		<meta name="msapplication-TileColor" content="#4b66b1">
+		<meta name="theme-color" content="#4b66b1">
+		<meta property="og:image" content="https://rondos.in.ua/https://rondos.in.ua/images/og-logo.png">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://rondos.in.ua/css/style.css?v=4" />
+    </head>
+    <body>
+		<div class="first-screen-viewport">			
+			<header class="header">
+				<div class="tm-container">
+					<div class="header__wrapp df">
+						<a href="/">
+							<img src="https://rondos.in.ua/images/logo.svg" width="88" height="15" uk-svg>
+						</a>
+						<div class="header__menu">
+							<a class="df header__menu-btn" href="#section-b" uk-scroll>
+								<img src="https://rondos.in.ua/images/icon-menu.svg" width="20" height="15" uk-svg>
+							</a>
+
+
+							<div id="modal-menu" class="uk-flex-top uk-modal-full" uk-modal="sel-close: .uk-modal-close, .uk-modal-close-default, .tm-modal-close">
+
+								<div class="uk-modal-dialog uk-modal-body">
+									<div class="header__menu-wrapp">
+										<span class="header__icon-close df tm-modal-close">
+											<img src="https://rondos.in.ua/images/icon-close.svg" width="15" height="15" uk-svg>
+										</span>
+										<nav class="header__nav">
+											<ul class="header__nav-list">
+												<li class="header__nav-item">
+													<a href="#why" uk-scroll class="tm-modal-close">
+														Вигоди
+													</a>
+												</li>
+												<li class="header__nav-item">
+													<a href="#influence" uk-scroll="offset: 15" class="tm-modal-close">
+														Цiлi
+													</a>
+												</li>
+												<li class="header__nav-item">
+													<a href="#review" uk-scroll class="tm-modal-close">
+														Вiдгуки
+													</a>
+												</li>
+											</ul>
+										</nav>
+										<a href="tel:380509808220" class="header__phone df">
+											<img src="https://rondos.in.ua/images/icon-phone.svg" width="16" height="16" uk-svg>
+											+38 050 980 82 20
+										</a>
+										<span class="header__text-close tm-modal-close">
+											Закрити
+										</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</header>
+			
+			<section class="tm-section-a offer">
+				<div class="tm-cover"></div>
+				<div class="offer-wrapper">
+					<div class="offer-body">
+						<div class="tm-container">
+							<h1>Доступні гроші на<br> будь-які цілі</h1>
+							<h2>Отримайте будь-яку суму онлайн на картку всього за 5 хвилин на 4 місяці.
+Без зайвого візиту до банку та будь-яких дзвінків вам і знайомим.</h2>
+						</div>
+					</div>
+					<div class="offer-footer">
+						<div class="tm-container">
+							<a href="#section-b" uk-scroll class="tm-button btn offer__btn df">Детальнiше</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		</div>
+
+
+		<section class="tm-section-b gift" id="section-b">
+			<div class="tm-container">
+				<h2 class="gift__title">Укажіть бажану сумму, строк та емейл для детального розрахунку умов та графіку платежів</h2>
+<!--				<p class="gift__text">Дізнайтеся на який максимальний термін вам доступна бажана сума.</p>-->
+				<form id="form-1" class="gift__form contact-form">
+					<div>
+						<input name="name" type = text placeholder="Ваше iм`я" class="gift__input df" />
+					</div>
+					<div>
+						<input name="email" type="email" required placeholder="Email" class="gift__input df" />
+					</div>
+					<div>
+						<input name="sum" type="number" required placeholder="Сума в грн." class="gift__input df" min="0" max="100000" />
+					</div>
+					<div>
+						<input name="term" type="number" required placeholder="Термін в днях" class="gift__input df" step="1" min="0" max="180" />
+					</div>
+					<div>
+						<input name="landing_number" type="hidden" value="1" />
+					</div>
+					<div>
+						<button type="submit" id="button-form-first" class="tm-button btn df">Отримати умови</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="tm-section-c why" id="why">
+			<div class="tm-container">
+				<h2 class="why__title">Вигоди довгострокового кредиту</h2>
+				<div class="why__list" uk-scrollspy="target: > div; cls: uk-animation-fade;">
+					<div class="why__item df">
+						<div class="why__item-image" style="padding-top: 16px;">
+							<img src="https://rondos.in.ua/images/icon-1.svg" width="62" height="43" uk-svg>
+						</div>
+						<div class="why__item-text">До 100 000 грн на картку</div>
+					</div>
+					<div class="why__item df">
+						<div class="why__item-image" style="padding-top: 6px;">
+							<img src="https://rondos.in.ua/images/icon-2.svg" width="60" height="53" uk-svg>
+						</div>
+						<div class="why__item-text">Мінімум документів</div>
+					</div>
+					<div class="why__item df">
+						<div class="why__item-image">
+							<img src="https://rondos.in.ua/images/icon-3.svg" width="57" height="61" uk-svg>
+						</div>
+						<div class="why__item-text">Обробка заявки<br> за 1 хвилину</div>
+					</div>
+					<div class="why__item df">
+						<div class="why__item-image">
+							<img src="https://rondos.in.ua/images/icon-4.svg" width="51" height="62" uk-svg>
+						</div>
+						<div class="why__item-text">95% позитивних рішень</div>
+					</div>
+					<div class="why__item df">
+						<div class="why__item-image">
+							<img src="https://rondos.in.ua/images/icon-5.svg" width="55" height="61" uk-svg>
+						</div>
+						<div class="why__item-text">Доступно 24/7</div>
+					</div>
+				</div>
+				<h3 class="why__subtitle" id="influence">На які цілі найчастіше беруть кредит</h3>
+				<ul class="why__influence-list">
+					<li class="why__influence-item df">
+						<div class="why__influence-icon df">
+							<img src="https://rondos.in.ua/images/icon-list.svg" width="32" height="29" uk-svg>
+						</div>
+						<p>
+							Терміновий ремонт квартири
+						</p>
+					</li>
+					<li class="why__influence-item df">
+						<div class="why__influence-icon df">
+							<img src="https://rondos.in.ua/images/icon-list.svg" width="32" height="29" uk-svg>
+						</div>
+						<p>
+							Купівля великої побутової техніки
+						</p>
+					</li>
+					<li class="why__influence-item df">
+						<div class="why__influence-icon df">
+							<img src="https://rondos.in.ua/images/icon-list.svg" width="32" height="29" uk-svg>
+						</div>
+						<p>
+							На дорогий гаджет
+						</p>
+					</li>
+					<li class="why__influence-item df">
+						<div class="why__influence-icon df">
+							<img src="https://rondos.in.ua/images/icon-list.svg" width="32" height="29" uk-svg>
+						</div>
+						<p>
+							Бракує на ремонт автомобіля
+						</p>
+					</li>
+					<li class="why__influence-item df">
+						<div class="why__influence-icon df">
+							<img src="https://rondos.in.ua/images/icon-list.svg" width="32" height="29" uk-svg>
+						</div>
+						<p>
+							Потрібні гроші на лікування
+						</p>
+					</li>
+					<li class="why__influence-item df">
+						<div class="why__influence-icon df">
+							<img src="https://rondos.in.ua/images/icon-list.svg" width="32" height="29" uk-svg>
+						</div>
+						<p>
+							На відпустку
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="tm-section-d review" id="review">
+			<div class="tm-container">
+				<h2>Відгуки</h2>
+				<div class="reviews" uk-scrollspy="target: > div; cls: uk-animation-fade;">
+					<div uk-slider>
+						<div class="uk-slider-container">
+							<ul class="uk-slider-items tm-slider-items tm-child-width-1-1">
+								<li class="df reviews__lide-wrapp">
+									<div class="reviews__slide">
+										<div class="reviews__slide-top df">
+											<div class="reviews__slide-photo">
+												<img src="https://rondos.in.ua/images/review-photo-3.jpg" alt="">
+											</div>
+											<div class="reviews__slide-info df">
+												<p class="reviews__slide-name">
+													Олексій
+												</p>
+												<p class="reviews__slide-profession">
+													32 роки (заробітчанин)
+												</p>
+											</div>
+										</div>
+										<div class="reviews__slide-bottom df">
+											<div class="reviews__slide-text">
+												<p>
+													Мені терміново потрібні були гроші – я втратив роботу і захворів. Узяв у Рондос 15 000 грн на 2 місяці на лікування та необхідні витрати. Далі я вилікувався, знайшов роботу та вже за місяць повністю віддав свій борг установі. Дуже круто, коли сервіс може виручити у скрутну хвилину людину, яка офіційно не працевлаштована. Дякую вам!
+												</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="df reviews__slide-wrapp">
+									<div class="reviews__slide">
+										<div class="reviews__slide-top df">
+											<div class="reviews__slide-photo">
+												<img src="https://rondos.in.ua/images/review-photo-4.jpg" alt="">
+											</div>
+											<div class="reviews__slide-info df">
+												<p class="reviews__slide-name">
+													Максим
+												</p>
+												<p class="reviews__slide-profession">
+													29 років
+												</p>
+											</div>
+										</div>
+										<div class="reviews__slide-bottom df">
+											<div class="reviews__slide-text">
+												<p>
+													Це вже не вперше, що я беру гроші у Rondos. Спочатку замовляв на картку невелику суму та без проблем отримав її. Нещодавно узяв 24 000 грн на 4 місяці на відпочинок із сім’єю. Повернув завчасно і без турбот. Дякую, що допомагаєте вирішувати фінансові проблеми так просто і всього за 10 хвилин!
+												</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="df reviews__slide-wrapp">
+									<div class="reviews__slide">
+										<div class="reviews__slide-top df">
+											<div class="reviews__slide-photo">
+												<img src="https://rondos.in.ua/images/review-photo-5.png" alt="">
+											</div>
+											<div class="reviews__slide-info df">
+												<p class="reviews__slide-name">
+													Марія
+												</p>
+												<p class="reviews__slide-profession">
+													36 років
+												</p>
+											</div>
+										</div>
+										<div class="reviews__slide-bottom df">
+											<div class="reviews__slide-text">
+												<p>
+													Потрібно було купити дорогий подарунок коханій людині, але я не встигала назбирати потрібну суму до його ДН, тому скористалася дуже-е-е вигідною пропозицію – позичила гроші у Рондос на умовах акції, де перші 42 дні не нараховуються проценти по кредиту. Гроші я повернула в акційний період, отримавши зарплату та аванс. Таким чином я користувалася 25 тисячами гривень безкоштовно! Дуже приємно, дякую вам!
+												</p>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<ul class="uk-slider-nav uk-dotnav tm-dotnav"></ul>
+					</div>
+				</div>
+				<h3 class="review__form-title">Укажіть бажану сумму, строк та емейл для детального розрахунку умов та графіку платежів</h3>
+<!--				<p class="review__form-text">Дізнайтеся на який максимальний термін вам доступна бажана сума.</p>-->
+				<form id="form-2" class="contact-form">
+					<div>
+						<input name="name" type = text placeholder="Ваше iм`я" class="gift__input" />
+					</div>
+					<div>
+						<input name="email" type="email" required placeholder="Email" class="gift__input" />
+					</div>
+					<div>
+						<input name="sum" type="number" required placeholder="Сума в грн." class="gift__input df" min="0" max="100000" />
+					</div>
+					<div>
+						<input name="term" type="number" required placeholder="Термін в днях" class="gift__input df" step="1" min="0" max="180" />
+					</div>
+					<div>
+						<input name="landing_number" type="hidden" value="1" />
+					</div>
+					<div>
+						<button type="submit" type = text id="button-form-second" class="tm-button df btn gift__btn">Отримати умови</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="tm-container">
+				<div>
+					<p class="footer__title">
+						Адреса
+					</p>
+					<address class="footer__address">
+						ТОВ «Rondos», індекс 03065,<br>
+						Київська обл., м. Київ,<br>
+						Солом'янський район<br>
+						вул. Козелецька, 24.
+					</address>
+					<p class="footer__title">
+						Контакти
+					</p>
+					<a href="tel:380509808220">
+						+38 050 980 82 20 
+					</a>
+					<a href="mailto:support@rondos.com.ua">
+						support@rondos.com.ua
+					</a>
+				</div>
+			</div>
+		</footer>
+		
+		<div id="modal-confirm" class="uk-flex-center" uk-modal="sel-close: .uk-modal-close, .uk-modal-close-default, .tm-modal-close">
+			<div class="uk-modal-dialog uk-margin-auto-vertical uk-width-auto confirm__wrapp df">
+				<span class="confirm__img">
+					<img src="https://rondos.in.ua/images/icon-list.svg" width="32" height="29" uk-svg>
+				</span>
+				<div class="confirm__text">
+					<p>
+						Заявку вiдправлено.
+					</p>
+					<p>
+						Для отримання пропозиції будь ласка перейдіть у свій email і підтвердіть його!
+					</p>
+				</div>
+				<a href="#" class="btn confirm__btn df tm-modal-close">
+					Ок
+				</a>
+			</div>
+		</div>
+
+		<!-- UIkit JS -->
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.13/dist/js/uikit.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://rondos.in.ua/js/main_test_21_07.js?v=2"></script>
+    </body>
+</html>
